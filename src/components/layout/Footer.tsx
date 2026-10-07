@@ -157,7 +157,16 @@ export function Footer() {
 
         {/* Bottom Credits */}
         <div className="pt-8 border-t border-[#242424] flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 text-[11px] uppercase tracking-widest text-[#666666]">
-          <span>© 2026 AERA APPAREL. ALL RIGHTS RESERVED.</span>
+          <div className="flex flex-wrap items-center gap-4">
+            <span>© 2026 AERA APPAREL. ALL RIGHTS RESERVED.</span>
+            <span>•</span>
+            <Link
+              href="/off-the-rail"
+              className="text-[#B9B1A6] hover:text-[#F5F2EC] transition-colors"
+            >
+              CONCEPT 02: OFF THE RAIL ↗
+            </Link>
+          </div>
           <span>
             CONCEPT & FRONTEND CRAFT BY{" "}
             <span className="text-[#F5F2EC]">@kiranbuildswithai</span>
